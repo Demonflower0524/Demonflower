@@ -12,4 +12,4 @@ params = {
 response = requests.get('https://section.blog.naver.com/Search/Post.nhn', params=params)
 
 print(response.status_code)
-print(response.url)
+print(response.url) 
